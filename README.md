@@ -2,192 +2,133 @@
 
 ## 📌 Project Overview
 
-This project showcases end-to-end REST API Testing using Postman on DummyJSON APIs. The objective was to validate API functionality, verify request-response behavior, perform CRUD operations, and ensure proper status code and data validation across multiple modules.
+This project demonstrates comprehensive API testing of the DummyJSON REST APIs using Postman. The objective of this project is to validate API functionality, request/response behavior, status codes, data integrity, and error handling through structured test scenarios.
 
-The project was developed to gain hands-on experience in API Testing and strengthen practical knowledge of REST APIs, JSON payloads, HTTP methods, and Postman scripting.
-
----
-
-## 🎯 Project Objectives
-
-- Understand REST API architecture and workflows.
-- Validate API requests and responses.
-- Perform CRUD operation testing.
-- Verify HTTP status codes and response payloads.
-- Execute positive and negative test scenarios.
-- Create reusable Postman collections.
-- Document test cases and test results.
+The project covers CRUD operations, authentication, response validation, and negative testing to ensure API reliability and consistency.
 
 ---
 
 ## 🛠️ Tools & Technologies
 
-| Tool | Purpose |
-|--------|----------|
-| Postman | API Testing |
-| DummyJSON | REST API Provider |
-| JSON | Request & Response Data |
-| Excel | Test Case Documentation |
-| GitHub | Version Control & Project Hosting |
+* Postman
+* DummyJSON REST APIs
+* JavaScript (Postman Test Scripts)
+* GitHub
+* Excel Test Documentation
 
 ---
 
-## 📂 Modules Tested
-
-### 🔐 Authentication
-- User Login
-- Get Authenticated User
-
-### 📦 Products
-- Get All Products
-- Get Product By ID
-- Search Products
-- Add Product
-- Update Product
-- Delete Product
-
-### 🛒 Carts
-- Get All Carts
-- Get Cart By ID
-- Add Products to Cart
-- Update Cart
-- Delete Cart
-
-### 📝 Posts
-- Get All Posts
-- Get Post By ID
-- Search Posts
-- Create Post
-- Update Post
-- Delete Post
-
-### 💬 Comments
-- Get All Comments
-- Get Comment By ID
-- Get Comments By Post ID
-- Add Comment
-- Update Comment
-- Delete Comment
-
----
-
-## ✅ Testing Activities Performed
-
-- Functional Testing
-- API Testing
-- CRUD Operations Testing
-- Response Validation
-- Status Code Validation
-- JSON Schema Validation
-- Positive Testing
-- Negative Testing
-- Postman Test Scripting
-
----
-
-## 📋 Sample Endpoints Tested
+## 🎯 APIs Tested
 
 ### Authentication
 
-```http
-POST /auth/login
-GET /auth/me
+* Login with Valid Credentials
+* Verify Authentication Response
+* Validate Authenticated User Details
+
+### Posts API
+
+* Get All Posts
+* Get Post By ID
+* Search Posts
+* Create Post
+* Update Post
+* Delete Post
+
+### Comments API
+
+* Get All Comments
+* Get Comment By ID
+* Get Comments By Post ID
+* Add Comment
+* Update Comment
+* Delete Comment
+
+### Carts API
+
+* Get All Carts
+* Get Cart By ID
+* Add Cart
+* Update Cart
+* Delete Cart
+
+---
+
+## ✅ Validation Performed
+
+* Status Code Validation
+* Response Body Validation
+* Response Time Validation
+* Data Integrity Validation
+* Error Handling Validation
+* Content-Type Validation
+* JSON Response Validation
+* Dynamic Data Verification
+
+---
+
+## 📊 Test Coverage
+
+| Module         | Operations Covered     |
+| -------------- | ---------------------- |
+| Authentication | Login, Get Auth User   |
+| Posts          | GET, POST, PUT, DELETE |
+| Comments       | GET, POST, PUT, DELETE |
+| Carts          | GET, POST, PUT, DELETE |
+
+---
+
+## 📂 Project Structure
+
+```text
+DummyJSON-API-Testing/
+│
+├── README.md
+├── Postman_Collection.json
+├── Test_Cases.xlsx
+└── Documentation_Link.txt
 ```
 
-### Products
+## 📖 API Documentation
 
-```http
-GET /products
-GET /products/{id}
-GET /products/search?q=phone
-POST /products/add
-PUT /products/{id}
-DELETE /products/{id}
-```
+**Published Postman Documentation**
 
-### Posts
-
-```http
-GET /posts
-GET /posts/{id}
-GET /posts/search?q=love
-POST /posts/add
-PUT /posts/{id}
-DELETE /posts/{id}
-```
-
-### Comments
-
-```http
-GET /comments
-GET /comments/{id}
-GET /comments/post/{id}
-POST /comments/add
-PUT /comments/{id}
-DELETE /comments/{id}
-```
+https://documenter.getpostman.com/view/42777813/2sBXwsNAhv
 
 ---
 
-## 📊 Validations Performed
+## 🔥 Key Features
 
-✔️ Status Code Validation
-
-✔️ Response Body Validation
-
-✔️ JSON Data Verification
-
-✔️ CRUD Operation Validation
-
-✔️ Error Response Validation
-
-✔️ Content-Type Verification
-
-✔️ Response Time Validation
+* End-to-End API Testing
+* CRUD Operations Validation
+* Positive and Negative Test Scenarios
+* Automated Assertions using Postman Scripts
+* Structured Test Case Documentation
+* Published API Documentation
+* Request and Response Validation
 
 ---
 
-## 📁 Project Deliverables
+## 🎓 Learning Outcomes
 
-- Postman Collection
-- API Test Cases (Excel)
-- Project Documentation
-- Execution Screenshots
-- GitHub Repository
+Through this project, I gained hands-on experience in:
 
----
-
-## ⚠️ Observations
-
-DummyJSON is a mock REST API service. Data created using POST requests is not permanently stored. Therefore, retrieval, update, or deletion of newly created records may return **"not found"** responses. These scenarios were documented and validated as negative test cases.
-
----
-
-## 🎓 Key Learning Outcomes
-
-- Hands-on experience with REST API Testing
-- Understanding of HTTP Methods (GET, POST, PUT, DELETE)
-- API Request & Response Validation
-- Postman Collection Creation
-- Test Case Design and Documentation
-- Positive & Negative Testing Techniques
-
----
-
-## 📈 Project Outcome
-
-Successfully tested Authentication, Products, Carts, Posts, and Comments APIs using Postman. Validated API functionality, response structures, status codes, and CRUD operations while building practical API Testing skills aligned with Software Testing industry standards.
+* REST API Testing
+* API Request & Response Validation
+* Test Case Design
+* Error Handling Verification
+* Postman Collection Management
+* API Documentation
+* GitHub Project Management
 
 ---
 
 ## 👨‍💻 Author
 
-### Sarode Maruthi Rao
+**Maruthi Rao**
 
-Software Testing Enthusiast | Manual Testing | API Testing | Postman | SQL | Git & GitHub
+Aspiring Software Test Engineer | API Testing Enthusiast
 
-📧 Email: Your Email
+---
 
-🔗 LinkedIn: Your LinkedIn Profile
-
-🔗 GitHub: Your GitHub Profile
+⭐ Feel free to explore the collection and documentation to review the implemented API test scenarios and validation results.
