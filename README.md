@@ -83,10 +83,13 @@ The project covers CRUD operations, authentication, response validation, and neg
 ```text
 DummyJSON-API-Testing/
 │
-├── README.md
-├── Postman_Collection.json
-├── Test_Cases.xlsx
-└── Documentation_Link.txt
+├── README.md      # Project Documentation
+│
+├── JsonFile/
+│   └── DummyJson API.postman_collection.json  # Postman Collection
+│
+└── TestCases/
+    └── Dummy Json.xlsx  # Test Cases & Validation Documentation
 ```
 
 ## 📖 API Documentation
