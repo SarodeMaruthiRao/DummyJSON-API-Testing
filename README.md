@@ -128,7 +128,7 @@ Through this project, I gained hands-on experience in:
 
 ## 👨‍💻 Author
 
-**Maruthi Rao**
+**Sarode Maruthi Rao**
 
 Aspiring Software Test Engineer | API Testing Enthusiast
 
